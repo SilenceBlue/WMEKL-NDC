@@ -1,6 +1,9 @@
 # WMEKL-NDC
 Weight-Based Multiple Empirical Kernel Learning with Neighbor Discriminant Constraint for Heart Failure Mortality Predicrion
+
 The code is developed under Matlab 2015b
+
+For the specific use of each function, please see the comments for the function.
 # Demo Code
 inputInf.C1 = 0.1;
 
