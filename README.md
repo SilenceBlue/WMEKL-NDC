@@ -4,7 +4,7 @@ Weight-Based Multiple Empirical Kernel Learning with Neighbor Discriminant Const
 The code is developed under Matlab 2015b
 
 For the specific use of each function, please see the comments for the function.
-# Demo Code
+## Demo Code
 inputInf.C1 = 0.1;
 
 inputInf.C2 = 0.1;
@@ -23,13 +23,14 @@ inputInf.R = 0.99/*ones(inputInf.M, 1);
 
 inputInf.B = 0.1/*ones(inputInf.M, 1);
 
-[vec_res, t_train] = MultiKMHKS_Fuc_NCA(train, test, inputInf);
+[vec_res, t_train] = MultiKMHKS_Fuc_NDC(train, test, inputInf);
 
 TPR = vec_res(1);
 
 TNR = vec_res(2);
 
 Acc = vec_res(3);
+
 AA = vec_res(4);
 
 GM = vec_res(5);
